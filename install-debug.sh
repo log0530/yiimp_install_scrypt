@@ -372,7 +372,7 @@
     
     # Compil Blocknotify
     cd ~
-    git clone https://github.com/tpruvot/yiimp
+    git clone https://github.com/Kudaraidee/yiimp.git
     cd $HOME/yiimp/blocknotify
     sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
     sudo make
@@ -1147,7 +1147,7 @@
     sudo sed -i '14d' /var/web/yaamp/defaultconfig.php
 
     #Misc
-    sudo mv $HOME/yiimp/ $HOME/yiimp-install-only-do-not-run-commands-from-this-folder
+    sudo mv $HOME/yiimp/ $HOME/abc-yiimp
     sudo rm -rf /var/log/nginx/*
     
     #Hold update OpenSSL
